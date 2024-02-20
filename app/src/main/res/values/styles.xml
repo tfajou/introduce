@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- BottomNavigationView의 활성화된 텍스트 스타일 -->
+    <style name="BottomNavigationTextActive" parent="@android:style/TextAppearance">
+        <item name="android:textSize">12sp</item> <!-- 원하는 텍스트 크기로 변경 -->
+    </style>
+
+    <!-- BottomNavigationView의 비활성화된 텍스트 스타일 -->
+    <style name="BottomNavigationTextInactive" parent="@android:style/TextAppearance">
+        <item name="android:textSize">10sp</item> <!-- 원하는 텍스트 크기로 변경 -->
+    </style>
+
+    <style name="BottomNavigationText">
+        <item name="android:textSize">20sp</item> <!-- 원하는 텍스트 크기 -->
+        <!-- 기타 원하는 텍스트 스타일 속성 추가 -->
+    </style>
+
+
+</resources>

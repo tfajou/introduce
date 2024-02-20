@@ -3,7 +3,6 @@ package com.example.intridyce
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.widget.Toast
 import com.example.intridyce.databinding.ActivitySignInBinding
 
@@ -25,7 +24,7 @@ class SignInActivity : AppCompatActivity() {
             if (id.isEmpty() || passwrod.isEmpty()) {
                 Toast.makeText(this, "아이디/비밀번호를 확인해주세요", Toast.LENGTH_SHORT).show()
             } else {
-                val intent = Intent(this, HomeActivity::class.java)
+                val intent = Intent(this, MainActivity::class.java)
                 intent.putExtra("dataFromSignInActivity", id)
                 intent.putExtra("dataFromSignInActivity", passwrod)
                 startActivity(intent)
